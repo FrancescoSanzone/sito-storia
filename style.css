@@ -1,0 +1,555 @@
+body {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    margin-top: 30px;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+#sb{
+    border: 1px solid #ddd;
+    padding: 50px;
+}
+
+    th:first-child, td:first-child {
+        text-align: left;
+    }
+
+    th:last-child, td:last-child {
+        text-align: right;
+    }
+.table1{
+    background-color:dimgrey;
+    text-align: center;
+    margin-top: 5%;
+}
+.table1 a{
+    color: #ddd;
+}
+#left{
+    text-align: left;
+}
+#center{
+    text-align: center;
+}
+#right{
+    text-align: right;
+}
+.contenitore{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+.immagine{
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    float: left;
+    margin: 10px 50px;
+    overflow: hidden;
+}
+
+#m1{
+    width: 100%;
+    height: 80%;
+}
+#sb{
+    width: 33%;
+}
+a{
+    text-align: center;
+}
+#h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+}
+a:hover{
+    font-size: 20px;
+}
+#tab3{
+    width: 100%;
+    margin-top: 5%;
+}
+#td2{
+    width: 25%;
+}
+#td3{
+    background-color:dimgrey;
+    text-align: justify;
+    color: #ddd;
+}
+#div1{
+    color: black;
+    text-align: center;
+    margin-top: 5%;
+}
+#p2{
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#h2{
+    margin-top: 5%;
+}
+.tooltip{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px solid black;
+}
+
+.tooltip .tooltiptext {
+visibility: hidden;
+width: 125px;
+background-color: black;
+color: #fff;
+text-align: center;
+border-radius: 6px;
+padding: 8px;
+position: absolute;
+z-index: 1;
+top: 100%;
+left: 50%;
+margin-left: -70px;
+font-size: 12px;
+}
+.tooltip:hover .tooltiptext{
+    visibility: visible;
+}
+
+.immagini_pagina_1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+#m2{
+    width: 35%;
+    height: 15%;
+}
+
+.immagini_pagina_2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+#m3{
+    width: 40%;
+    height: 20%;
+}
+
+.immagini_pagina_3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+#m4{
+    width: 40%;
+    height: 20%;
+}
+
+.immagini_pagina_4{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+#m5{
+    width: 40%;
+    height: 20%;
+}
+
+.immagini_pagina_5{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+#m6{
+    width: 33%;
+    height: 15%;
+}
+
+.immagini_pagina_6{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+#m7{
+    width: 40%;
+    height: 20%;
+}
+
+.immagini_pagina_7{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+#m8{
+    width: 40%;
+    height: 20%;
+}
+
+.immagini_pagina_8{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+#m9{
+    width: 40%;
+    height: 20%;
+}
+
+.immagini_pagina_9{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+#m10{
+    width: 40%;
+    height: 20%;
+}
+
+.immagini_pagina_10{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+#m11{
+    width: 40%;
+    height: 20%;
+}
+
+.immagini_pagina_11{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+#m12{
+    width: 40%;
+    height: 20%;
+}
+
+.immagini_pagina_12{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+#m13{
+    width: 40%;
+    height: 20%;
+}
+
+.immagini_pagina_13{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+#m14{
+    width: 40%;
+    height: 20%;
+}
+
+.immagini_pagina_14{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+#m15{
+    width: 40%;
+    height: 20%;
+}
+
+.immagini_pagina_15{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+#m16{
+    width: 40%;
+    height: 20%;
+}
+
+.immagini_pagina_16{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+#m17{
+    width: 40%;
+    height: 20%;
+}
+
+.p2{
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.p2 a{
+color: black;
+}
+
+.immagini_pagina_17{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+#m18{
+    width: 50%;
+    height: 25%;
+}
+
+.immagini_pagina_18{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+#m19{
+    width: 50%;
+    height: 25%;
+}
+
+.immagini_pagina_19{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+#m20{
+    width: 40%;
+    height: 20%;
+}
+
+.immagini_pagina_20{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+#m21{
+    width: 50%;
+    height: 20%;
+}
+
+.immagini_pagina_21{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+#m22{
+    width: 40%;
+    height: 20%;
+}
+
+.immagini_pagina_22{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+#m23{
+    width: 40%;
+    height: 20%;
+}
+
+.immagini_pagina_23{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+#m24{
+    width: 40%;
+    height: 20%;
+}
+
+.immagini_pagina_24{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+#m25{
+    width: 40%;
+    height: 20%;
+}
+
+.immagini_pagina_25{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+#m26{
+    width: 30%;
+    height: 15%;
+}
+
+.immagini_pagina_26{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+#m27{
+    width: 30%;
+    height: 15%;
+}
+
+.immagini_pagina_27{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+#m28{
+    width: 30%;
+    height: 15%;
+}
+
+.immagini_pagina_28{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+#m29{
+    width: 30%;
+    height: 15%;
+}
+
+.immagini_pagina_29{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+#m30{
+    width: 30%;
+    height: 15%;
+}
+
+.immagini_pagina_30{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+#m31{
+    width: 30%;
+    height: 15%;
+}
+
+.immagini_pagina_31{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+#m32{
+    width: 30%;
+    height: 15%;
+}
+
+.immagini_pagina_32{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+#m33{
+    width: 30%;
+    height: 15%;
+}
